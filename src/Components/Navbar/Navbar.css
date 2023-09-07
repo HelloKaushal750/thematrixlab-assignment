@@ -1,0 +1,10 @@
+.navbar {
+  background-color: #292929;
+  height: 92vh;
+  width: 288px;
+  border-radius: 0 32px 0 0;
+}
+.nav_first{
+  display: flex;
+  align-items: center;
+}

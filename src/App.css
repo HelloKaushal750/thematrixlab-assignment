@@ -1,38 +1,16 @@
 .App {
-  text-align: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url('../public/Images/Rectangle9398.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: inset 700px 700px 700px rgba(0, 0, 0, 0.5);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.content {
+  display: grid;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.red_strip {
+  height: 8vh;
+  background-color: #f30050;
 }
