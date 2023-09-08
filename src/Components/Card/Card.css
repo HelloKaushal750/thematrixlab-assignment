@@ -1,0 +1,55 @@
+.result {
+  color: white;
+  padding: 0 32px 0 40px;
+  margin-left: 280px;
+  margin-top: 10px;
+  background-color: transparent;
+  margin-bottom: 50px;
+}
+.card_data {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 279px);
+  gap: 12px;
+  margin-bottom: 29px;
+}
+.card_data > div {
+  background-color: #390554;
+  border-radius: 10px;
+  height: 188px;
+  padding-left: 20px;
+  position: relative;
+}
+.card_data > div p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.card_data > div table {
+  font-size: 12px;
+  font-weight: 500;
+}
+table td {
+  width: 115px;
+  padding-bottom: 10px;
+}
+.icon_btn {
+  height: 56px;
+  width: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #960252;
+  position: absolute;
+  margin-left: 195px;
+}
+
+
+@media screen and (max-width: 480px){
+  .card_data {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 279px);
+    margin-bottom: 29px;
+  }
+}

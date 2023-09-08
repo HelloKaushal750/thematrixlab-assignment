@@ -1,7 +1,11 @@
 .search{
     display: flex;
     justify-content: space-between;
-    padding: 27px 65px;
+    padding: 27px 44px 27px 65px;
+    margin-left: 288px;
+}
+.searchbar{
+    display: flex;
 }
 .search input{
     width: 385px;
@@ -33,4 +37,16 @@
     font-weight: 400;
     border: 1px solid white;
     border-left: none;
+    margin-right: 80px;
+}
+.connect_btn{
+    width: 156px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    height: 52px;
+    background-image: linear-gradient(to right,#7C0F35, #581266);
+    color: white;
+    margin-left: 400px;
 }
