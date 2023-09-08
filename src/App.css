@@ -1,16 +1,19 @@
 .App {
   height: 100vh;
   width: 100%;
-  background-image: url('../public/Images/Rectangle9398.png');
+  background-image: url("../public/Images/Rectangle9398.png");
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: inset 700px 700px 700px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 1200px 1200px 1200px rgba(0, 0, 0, 0.5);
+  font-family: Work 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .content {
   display: grid;
+  grid-template-columns: 288px 1224px;
 }
 .red_strip {
-  height: 8vh;
+  height: 68px;
   background-color: #f30050;
 }
+
